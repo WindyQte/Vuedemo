@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "name": "Vuedemo",
+            "path": "."
+        },
+        {
+            "name": "电商项目",
+            "path": "..\\..\\..\\Desktop\\JavaScript学习资料\\电商项目"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "电商项目",
+        "liveServer.settings.port": 5501
+    }
+}

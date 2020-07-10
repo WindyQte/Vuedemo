@@ -1,0 +1,360 @@
+/**快捷导航栏*/
+.style-red {
+    color: red;
+}
+
+.shortcut {
+    height: 31px;
+    background-color: rgba(228, 225, 225, 0.89);
+    line-height: 31px;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 12px 0;
+}
+
+@font-face {
+    /*声明字体  引用字体*/
+    font-family: "icomoon";
+    /*我们自己起名字可以*/
+    src: url("../fonts/icomoon.eot?7kkyc2");
+    src: url("../fonts/icomoon.eot?7kkyc2#iefix") format("embedded-opentype"),
+        url("../fonts/icomoon.ttf?7kkyc2") format("truetype"),
+        url("../fonts/icomoon.woff?7kkyc2") format("woff"),
+        url("../fonts/icomoon.svg?7kkyc2#icomoon") format("svg");
+    font-style: normal;
+    /*倾斜字体正常*/
+}
+
+.fr .icomoon {
+    font-family: "icomoon";
+    font-size: 15px;
+    line-height: 26px;
+}
+
+header {
+    height: 105px;
+}
+
+.logo img {
+    position: absolute;
+    float: left;
+    width: 175px;
+    height: 105px;
+}
+.search {
+    margin-left: 360px;
+    margin-top: 20px;
+}
+.text {
+    float: left;
+    width: 445px;
+    padding-left: 10px;
+    height: 30px;
+    border: 2px solid rgb(196, 56, 56);
+    color: #ccc;
+}
+.btn {
+    float: left;
+    background-color: rgb(197, 48, 48);
+    height: 30px;
+    width: 82px;
+    color: seashell;
+    font-size: 15px;
+}
+.hotwords {
+    margin-top: 50px;
+    margin-left: 360px;
+}
+.hotwords a {
+    margin: 0 1px;
+}
+.shopcart {
+    float: right;
+    margin-top: -50px;
+    margin-right: 60px;
+    width: 149px;
+    height: 36px;
+    background-color: #fff;
+    border: 1px solid rgb(185, 183, 183);
+    line-height: 35px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(196, 56, 56);
+}
+.shopcart:hover {
+    border-color: rgb(197, 48, 48);
+}
+.car {
+    font-size: 13px;
+    font-family: "icomoon";
+    color: rgb(197, 48, 48);
+    margin-right: 5px;
+}
+.arrow {
+    font-size: 15px;
+    font-family: "icomoon";
+    color: rgb(197, 48, 48);
+    margin-left: 5px;
+    margin-top: 2px;
+}
+.count {
+    float: right;
+    background-color: rgb(197, 48, 48);
+    padding: 0px 3px;
+    color: #fff;
+    border-radius: 7px 7px 7px 0px;
+    font-size: 15px;
+    margin-top: -55px;
+    margin-right: 75px;
+}
+.nav {
+    height: 45px;
+    border-bottom: 2px solid rgb(196, 56, 56);
+}
+.dropdown {
+    margin-top: 10px;
+    width: 205px;
+    height: 35px;
+}
+.dropdown .dt {
+    height: 100%;
+    background-color: rgb(196, 56, 56);
+    text-align: center;
+    color: #fff;
+    font-size: 12.5px;
+    line-height: 45px;
+}
+.dropdown .dd {
+    height: 480px;
+    background-color: rgb(196, 56, 56);
+    margin-top: 3px;
+    color: rgba(228, 225, 225, 0.89);
+}
+.meun_item {
+    height: 25px;
+    line-height: 25px;
+    margin-left: 1px;
+    padding-left: 10px;
+}
+.meun_item:hover {
+    background-color: #fff;
+}
+.meun_item a {
+    font-size: 12px;
+    color: #fff;
+}
+.meun_item:hover a {
+    color: rgb(197, 48, 48);
+}
+.navitems li {
+    margin-top: 20px;
+    float: left;
+    font-size: 12.5px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 0 22.5px;
+    line-height: 20px;
+    color: rgb(78, 76, 76);
+}
+footer {
+    height: 416px;
+    width: 100%;
+    padding-top: 1000px;
+}
+.footer_top {
+    height: 100px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+.footer_top li {
+    width: 300px;
+    float: left;
+}
+.duo {
+    background-color: salmon;
+    float: left;
+    width: 46px;
+    height: 46px;
+    background: url(../img/xxtu.png) no-repeat 7px -189px;
+    margin-left: 10px;
+}
+.p_o {
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.kuai {
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: pink;
+    background: url(../img/xxtu.png) no-repeat -36px -189px;
+}
+.hao {
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: pink;
+    background: url(../img/xxtu.png) no-repeat -77px -189px;
+}
+.shen {
+    width: 46px;
+    height: 46px;
+    float: left;
+    background: pink;
+    background: url(../img/xxtu.png) no-repeat -118px -189px;
+}
+.p_l {
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    float: left;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.p_z {
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    float: left;
+    color: rgb(71, 71, 71);
+    font-weight: bold;
+}
+.p_r {
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    padding-left: 5px;
+    float: left;
+    color: rgb(71, 71, 71);
+    font-weight: bolder;
+}
+.footer_mid {
+    height: 206px;
+    padding-left: 32px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgb(185, 183, 183);
+}
+.mid_o {
+    width: 190px;
+    float: left;
+}
+.mid_o li a {
+    font-size: 12px;
+}
+.mid_l li {
+    height: 30px;
+    width: 190px;
+    float: left;
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+.text_l {
+    text-align: left;
+    width: 180px;
+}
+.text_span {
+    text-align: right;
+}
+.i_l {
+    font-family: "icomoon";
+    font-size: 14px;
+}
+.footer_bottom {
+    height: 265px;
+}
+.p_e {
+    font-size: 12px;
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Tahoma;
+    font-weight: initial;
+}
+
+.p_a {
+    height: 19px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Tahoma;
+    font-weight: initial;
+    color: rgb(179, 178, 178);
+}
+.a_r {
+    color: rgb(179, 178, 178);
+}
+.p_b {
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Tahoma;
+    font-weight: initial;
+}
+.p_c {
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    font-size: 12px;
+    font-family: Arial, Tahoma;
+    display: inline-block;
+    margin-left: 311px;
+}
+
+.a_l {
+    float: left;
+    padding: 0 6px;
+    color: rgb(179, 178, 178);
+}
+.global {
+    height: 18px;
+    width: 18px;
+    float: left;
+    text-align: center;
+    background: url(../img/log.png) no-repeat -104px -153px;
+}
+
+.CantPo {
+    height: 18px;
+    width: 18px;
+    background-color: khaki;
+    float: left;
+    background: url(../img/log.png) no-repeat -166px -153px;
+}
+.Situs {
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    float: left;
+    background: url(../img/log.png) no-repeat -144px -150px;
+}
+.sito {
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    float: left;
+    background: url(../img/log.png) no-repeat -124px -151px;
+}
+.ssss {
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    float: left;
+    background: url(../img/log.png) no-repeat -104px -167px;
+}

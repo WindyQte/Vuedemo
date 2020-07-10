@@ -1,0 +1,22 @@
+.main {
+    width: 982px;
+    height: 470px;
+    background-color: lightcoral;
+    margin-top: 10px;
+    margin-left: 210px;
+}
+.focus {
+    width: 590px;
+    height: 470px;
+    background-color: #fff;
+    border: 1px solid brown;
+    float: left;
+}
+.hotpic {
+    width: 190px;
+    height: 470px;
+    background-color: cornflowerblue;
+    border: 1px solid gainsboro;
+    float: left;
+    margin-left: 8px;
+}
